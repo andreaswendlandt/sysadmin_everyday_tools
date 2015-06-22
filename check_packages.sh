@@ -13,15 +13,13 @@ mail_to="your_address"
 for server in $servers; do
   packages=$(ssh $server "/usr/lib/update-notifier/apt-check -p 2>&1")
   if ! [ -z "$packages"  ]; then
-    echo -e "\n $server \n -------------------------- \n $packages" \
-    >>$file
+    echo -e "\n $server \n -------------------------- \n $packages" >>$file
   fi
   packages=
 done
 
 if [ -s $file ]; then
-  cat $file | mail -s "Updates needed on the following Servers" \
-  $mail_to
+  cat $file | mail -s "Updates needed on the following Servers" $mail_to
 fi
 
 rm $file 2>/dev/null
