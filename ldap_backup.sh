@@ -19,8 +19,8 @@ unset USERNAME
 
 # compare the current file with the previous one, 
 # in case they are the same delete the older one
-TODAY_SIZE=$(ls -la $DUMP_FOLDER/_${NOW}.ldif | awk '{print $5}')
-YESTERDAY_SIZE=$(ls -la $DUMP_FOLDER/_${YESTERDAY}.ldif | awk '{print $5}')
+TODAY_SIZE=$(ls -la $DUMP_FOLDER/${NOW}.ldif | awk '{print $5}')
+YESTERDAY_SIZE=$(ls -la $DUMP_FOLDER/${YESTERDAY}.ldif | awk '{print $5}')
 
 if [ $YESTERDAY_SIZE -eq $TODAY_SIZE ]; then
   rm ${DUMP_FOLDER}/${YESTERDAY}.ldif >/dev/null
