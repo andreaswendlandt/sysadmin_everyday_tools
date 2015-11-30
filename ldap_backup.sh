@@ -27,3 +27,4 @@ if [ $YESTERDAY_SIZE -eq $TODAY_SIZE ]; then
 fi
 
 exit 0
+
