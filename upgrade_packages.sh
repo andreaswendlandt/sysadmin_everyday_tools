@@ -49,3 +49,4 @@ for host in $servers; do
 done  | tee -a $logfile
 
 exit 0
+
