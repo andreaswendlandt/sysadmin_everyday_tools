@@ -39,3 +39,4 @@ else
   echo "backup is not in s3 ($SEARCHFILE not found)"
   exit 2
 fi
+

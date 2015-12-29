@@ -100,3 +100,4 @@ CACHEFILE="/tmp/.s3-backup-listing"
 nice -n 19 duplicity list-current-files --s3-use-new-style \
 "s3+http://$BUCKET_NAME" | tail -n +4 | awk '{print $6}' >$CACHEFILE
 
+
