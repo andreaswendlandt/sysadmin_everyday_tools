@@ -46,7 +46,7 @@ fi
 # is enabled and returns an ok, if you run this script with 
 # the parameter "off" it gives a warning in case it is enabled
 
-# default:
+# default
 if [ $(($core_count * 2 )) -eq "$thread_count" ]; then 
   result=on
   if [ $# -eq 0 ]; then
