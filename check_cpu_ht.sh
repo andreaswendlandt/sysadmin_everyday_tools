@@ -27,8 +27,8 @@ if ! dmidecode -t processor | grep -i htt >/dev/null; then
 fi
 
 # fetch the values we need
-core_count=$(dmidecode -t processor | egrep 'Core Count:' | grep -o '[[:digit:]]*')
-thread_count=$(dmidecode -t processor | egrep 'Thread Count:' | grep -o '[[:digit:]]*')
+core_count=$(dmidecode -t processor | egrep 'Core Count:' | uniq | grep -o '[[:digit:]]*')
+thread_count=$(dmidecode -t processor | egrep 'Thread Count:' | uniq | grep -o '[[:digit:]]*')
 
 # check that we don't have empty variables and that the values are integers
 if [ -z $core_count ] || [ -z $thread_count ]; then
