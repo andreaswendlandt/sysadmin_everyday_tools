@@ -17,10 +17,10 @@ fi
 daemon=$(ls -1 /etc/init.d/ | grep $1)
 
 if [ "$daemon" == "$1" ]; then
-    if /etc/init.d/$1 status 2>/dev/null | grep "is running" >/dev/null 2>&1; then
+    if /etc/init.d/$1 status 2>/dev/null | egrep 'is running|active \(running\)' >/dev/null 2>&1; then
         echo "OK, service $1 is running"
         exit ${OK_STATE}
-    elif /etc/init.d/$1 status 2>/dev/null | grep "is not running" >/dev/null 2>&1; then
+    elif /etc/init.d/$1 status 2>/dev/null | egrep 'is not running|is stopped|inactive \(dead\)' >/dev/null 2>&1; then
         echo "CRITICAL, service $1 is not running!!!"
         exit ${CRITICAL_STATE}
     else
