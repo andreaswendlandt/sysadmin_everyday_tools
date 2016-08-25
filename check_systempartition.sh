@@ -9,7 +9,7 @@ UNKNOWN_STATE=3
 warn_value=80
 crit_value=90
 
-result=$(df -h | grep '/$' | head -n1 | awk '{print $5}' | grep -o '[[:digit:]]')
+result=$(df -h | grep '/$' | head -n1 | awk '{print $5}' | grep -o '[0-9]*')
 set -- $(df -h | grep '/$' | head -n1)
 
 if [ $# -ne 6 -o -z "$result" ]; then
