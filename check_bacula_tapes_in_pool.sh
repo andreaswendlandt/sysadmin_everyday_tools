@@ -22,7 +22,7 @@ if ! echo $all_pools | grep -w $pool_to_check >/dev/null; then
     exit ${WARNING_STATE}
 fi
 
-result=$(echo "list volumes pool=$pool_to_check" | bconsole | grep -c '[[:digit:]]*L6')
+result=$(echo "list volumes pool=$pool_to_check" | bconsole | grep -c 'EPU[[:digit:]]*L[0-9]')
 
 if ! echo "$result" | egrep '^[[:digit:]]+$' >/dev/null 2>&1; then
     echo "UNKNOWN, could not determine the number of tapes in pool $pool_to_check please check manually"
