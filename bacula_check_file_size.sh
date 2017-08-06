@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: andreas
+# author: guerillatux
 # desc: script for getting the size of a file backed up in bacula
 # last modified: 16.3.2017
 

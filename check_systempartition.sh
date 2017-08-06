@@ -1,11 +1,13 @@
 #!/bin/bash
 # author: guerillatux
 # desc: simple nagios check for measuring the used space of /
-# last modified: 24.08.2016
-                                                                                                                                                                                                                                                    OK_STATE=0 
-CRITICAL_STATE=2                                                                                                                                                                                                                                    
+# last modified: 24.08.2016                                                                                                                                                                                                                        
+
+OK_STATE=0
+CRITICAL_STATE=2                                                                                                                                                                                                                                   
 WARNING_STATE=1                                                                                                                                                                                                                                
 UNKNOWN_STATE=3
+
 warn_value=80
 crit_value=90
 
