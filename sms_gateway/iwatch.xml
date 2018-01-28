@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<config charset="utf-8">
+  <guard email="root@localhost" name="IWatch"/>
+  <watchlist>
+    <title>Transferverzeichnis</title>
+    <contactpoint email="root@localhost" name="Administrator"/>
+    <path type="recursive" alert="off" syslog="on" exec="/usr/local/sbin/move-sms.sh '/path_to_source' /path_to_destination" events="close_write">/path_to_source</path>
+</watchlist>
+</config>
