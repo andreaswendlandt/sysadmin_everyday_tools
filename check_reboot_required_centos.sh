@@ -13,7 +13,7 @@ if ! which needs-restarting >/dev/null 2>&1; then
     exit ${UNKNOWN_STATE}
 fi
 
-if needs-restarting -r >/dev/null 2>&1; then
+if ! needs-restarting -r >/dev/null 2>&1; then
     echo "WARNING, a reboot is required on $HOSTNAME"
     exit ${WARNING_STATE}
 else
