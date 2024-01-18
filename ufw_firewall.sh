@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple ufw based firewall
 # last modified: 08.03.2016
 

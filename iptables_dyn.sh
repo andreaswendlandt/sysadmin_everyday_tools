@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple iptables based firewall for ipv4 and ipv6, udp and tcp
 # last modified: 07.03.2016
 

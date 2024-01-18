@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: trigger a backup in the jira webgui through the rest api,\
 # desc: create a zip file and download that file afterwards
 # last modified: 13.06.2015

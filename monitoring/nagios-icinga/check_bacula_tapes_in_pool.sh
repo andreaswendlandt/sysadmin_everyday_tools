@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple nagios check to determine if the given pool is out of tapes
 # last modified: 01.03.2017
 

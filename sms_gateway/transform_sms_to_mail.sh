@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: transforms an incoming sms to a mail and sends it
 # last modified: 4.11.2018
 

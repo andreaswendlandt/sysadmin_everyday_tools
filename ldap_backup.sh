@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: creates an ldif file with all the content 
 # desc: of the given dit and compares afterwards the newly 
 # desc: created file with the one from the day before, 

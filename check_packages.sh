@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: generates a list of packages that can be updated on the given
 # desc: server(s) and sends it via email
 # note: this requires the package update-notifier-common installed 

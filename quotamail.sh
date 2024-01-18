@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: sending a mail to all users over quota and a copy to the bofh
 # last modified: 26.7.2017
 

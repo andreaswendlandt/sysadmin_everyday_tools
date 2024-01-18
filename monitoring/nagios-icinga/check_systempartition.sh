@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple nagios check for measuring the used space of /
 # last modified: 24.08.2016                                                                                                                                                                                                                        
 

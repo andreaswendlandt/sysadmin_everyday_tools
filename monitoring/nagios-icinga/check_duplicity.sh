@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # simple nagios check to see if duplicity worked by grepping for a 
 # testfile which is created within the backup script
 # last modified: 22.07.2015

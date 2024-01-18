@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: autoinstaller for nagios nrpe server with integration to 
 # desc: an existing nagios instance
 # last modified: 04.03.2016

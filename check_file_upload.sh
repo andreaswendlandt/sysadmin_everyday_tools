@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: download a file and check the date of it
 # last modified: 13.06.2015
 

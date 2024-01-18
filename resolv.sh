@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: quick and dirty solution to overwrite /etc/resolv.conf with your own nameserver(s)
 # last modified: 27.04.2016
 

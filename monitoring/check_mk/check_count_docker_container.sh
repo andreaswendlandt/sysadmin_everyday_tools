@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple check_mk plugin to print out the number of running docker container(or a warning if noone is running)
 # last modified: 27.08.2020
 

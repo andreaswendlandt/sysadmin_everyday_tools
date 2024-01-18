@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple nagios check for ensuring that a given service/daemon is running
 # last modified: 19.01.2019
 

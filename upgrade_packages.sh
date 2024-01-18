@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: update packages on one or more servers
 # last modified: 27.3.2015
 

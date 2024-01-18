@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: check_mk plugin for evaluating the validity of java keystore certificates
 # desc: certificates with less or equal 30 days will return a warning, everything above will return ok
 # last modified: 30.05.2020

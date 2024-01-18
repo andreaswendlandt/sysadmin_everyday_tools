@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple nagios plugin for checking if a reboot is required
 # last modified: 13.10.2017
 

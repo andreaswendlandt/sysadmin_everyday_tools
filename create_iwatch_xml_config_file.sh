@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: script to autogenerate the needed iwatch xml config file
 # last modified: 28.4.2017
 

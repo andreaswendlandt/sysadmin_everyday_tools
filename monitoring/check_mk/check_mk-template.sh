@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple template to use for check_mk plugins
 # last modified: 01.05.2020
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 # desc: check_mk plugin for checking some galera cluster values(status, size, weight, connected, local state comment, ready, last committed) 
-# author: guerillatux
+# author: andreaswendlandt
 # last modified: 19.06.2020
 
 # mysql root password - only root can read this file, nobody can change it, not even chuck norris

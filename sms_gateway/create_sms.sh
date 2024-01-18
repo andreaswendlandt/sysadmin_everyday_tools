@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: creates a file that can be copied to a server
 # desc: where a sms gateway is running (smstools)
 # last modified: 28.01.2018

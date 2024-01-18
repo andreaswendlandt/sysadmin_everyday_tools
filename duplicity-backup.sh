@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # required packages: duplicity, python-paramiko, python-boto
 # desc: doing a backup to amazon s3 using duplicity
 # last modified: 22.07.2015

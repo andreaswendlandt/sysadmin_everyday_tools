@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: compare the size of database dumps with the previous day, 
 # desc: in case they are for a given percentage bigger or smaller, 
 # desc: a list of those db dumps will be generated and send to an

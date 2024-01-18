@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: creates a list of databases where the backup failed
 # desc: and sends this list via email
 # last modified: 18.04.2015

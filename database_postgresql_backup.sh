@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: database dump per database, NOT all db's in one dump
 # last modified: 6.4.2015
 

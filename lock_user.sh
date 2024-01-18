@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: script to lock a given user on a given server(s) and outcomment all ssh keys in case they are present
 # last modified: 03.11.2018
 

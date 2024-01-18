@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple check_mk plugin for evaluating the license usage based on values of a splunk logfile
 # desc: it will return a warning if the usage is above 80% and a critical if the usage is above 90%
 # desc: a graph will be generated as well

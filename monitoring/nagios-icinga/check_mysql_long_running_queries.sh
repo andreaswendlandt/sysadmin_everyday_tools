@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple nagios plugin for checking for long running mysql queries
 # last modified: 11.7.2018
 

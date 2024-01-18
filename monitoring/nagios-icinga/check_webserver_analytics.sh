@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: sends a warning if the time difference in logging is bigger
 # desc: than 5 minutes
 # last modified: 09.06.2015

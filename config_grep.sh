@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: function for grepping in (config)files for a search pattern and check if the line where the search pattern
 # desc: occurs is outcommented
 # last modified: 15.9.2019

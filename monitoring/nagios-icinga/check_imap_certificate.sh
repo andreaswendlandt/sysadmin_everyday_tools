@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple nagios check for determinig the expiration date of an imap certificate
 # desc: it will give a warning if this is within the next 10 days 
 # desc: and a critical within 5 days

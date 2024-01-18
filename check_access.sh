@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: script to check for deployment purposes that a bunch of
 # desc: servers can reach a deployment server on a given port
 # last modified: 3.4.2015

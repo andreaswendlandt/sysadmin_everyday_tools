@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple nagios check for checking expiring ssl certificates
 # last modified: 10.09.2015
 

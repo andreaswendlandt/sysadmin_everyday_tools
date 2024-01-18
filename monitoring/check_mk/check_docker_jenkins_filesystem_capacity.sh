@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: check_mk plugin for checking the disk space for a given docker container(jenkins in that case)
 # last modified: 27.08.2020
 

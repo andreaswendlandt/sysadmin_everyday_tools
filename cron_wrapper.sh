@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple wrapper script for cronjobs which have piped commands
 # last modified: 01.07.2018
 

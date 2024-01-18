@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: this script is triggered from iwatch and copies a file from a directory to the outgoing directory of smstools
 # last modified: 28.01.2018
 

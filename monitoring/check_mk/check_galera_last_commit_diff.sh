@@ -1,6 +1,6 @@
 #!/bin/bash
 # desc: check_mk plugin for checking the difference between wsrep last committed values of galera nodes
-# author: guerillatux
+# author: andreaswendlandt
 # last modified: 26.06.2020
 
 # mysql root password - only root can read this file, nobody can change it, not even chuck norris

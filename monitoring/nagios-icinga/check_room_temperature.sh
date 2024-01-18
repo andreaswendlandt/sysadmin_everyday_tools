@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple nagios check for determining the temperatur of a room,
 # desc: measured by an allnet all3418v2 device
 # last modified: 02.12.2015

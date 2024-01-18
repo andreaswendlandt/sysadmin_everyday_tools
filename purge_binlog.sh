@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: checks if the mysql partition has less than 10% space left, in that case it purges old binlogs(older than 2 hours)
 # last modified: 28.9.2017
 

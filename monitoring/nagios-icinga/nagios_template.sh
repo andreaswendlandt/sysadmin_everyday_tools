@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple template to use for nagios checks
 # last modified: 24.5.2015
 

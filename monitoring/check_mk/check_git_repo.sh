@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple check_mk plugin for checking that a git repo is available and usable
 # last modified: 22.05.2020
 # prerequisites: a valid user to authenticate agains the remote git/bitbucket server

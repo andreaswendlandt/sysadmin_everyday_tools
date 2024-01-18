@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple nagios check for ensuring that hyperthreading is enabled or not
 # last modified: 10.06.2016
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: guerillatux
+# author: andreaswendlandt
 # desc: simple nagios check to determine if the recycling flag is set in bacula on a specific pool
 # last modified: 01.02.2017
 

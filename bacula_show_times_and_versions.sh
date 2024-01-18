@@ -1,5 +1,5 @@
 #!/bin/bash 
-# author: guerillatux
+# author: andreaswendlandt
 # desc: this script shows all versions of a file with the corresponding date when that file was backed up
 # last modified: 8.5.2017
                                                                                                                                                                                                                                                     
